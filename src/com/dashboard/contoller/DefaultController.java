@@ -23,7 +23,7 @@ public class DefaultController {
 	private PreparedStatement statement = null;	
 	private ResultSet resultSet = null;
 	
-	@RequestMapping("/")
+	@RequestMapping("/resources")
 	public ModelAndView newVisitor() throws Exception {
 		System.out.println("inside controller");
 		ModelAndView mv = new ModelAndView();
